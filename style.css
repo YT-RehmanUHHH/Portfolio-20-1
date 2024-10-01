@@ -1,7 +1,8 @@
 html {
-  background: url("img/hack.jpg") no-repeat center fixed;
-  background-size: cover;
+  background: url("img/hack.jpg") no-repeat center center fixed;
+  background-size: cover; /* Ensure the image covers the entire background */
 }
+
 body {
   background: white;
   width: 600px;
@@ -9,18 +10,18 @@ body {
   padding: 20px 50px;
   border-radius: 15px;
   text-align: center;
-  transition: background 0.5s;
+  transition: background 0.5s ease; /* Smooth transition for hover effect */
 }
 
 body:hover {
-  background: rgba(255, 255, 255, 0);
+  background: rgba(75, 151, 212, 0.2); /* Transparent when hovered */
 }
 
 h1,
 h3,
 h4 {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  transition: all 0.5s;
+  transition: all 0.5s ease;
 }
 
 h1:hover,
