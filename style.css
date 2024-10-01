@@ -1,6 +1,6 @@
 html {
   background: url("img/hack.jpg") no-repeat center center fixed;
-  background-size: cover; /* Ensure the image covers the entire background */
+  background-size: cover;
 }
 
 body {
@@ -10,7 +10,7 @@ body {
   padding: 20px 50px;
   border-radius: 15px;
   text-align: center;
-  transition: background 0.5s ease; /* Smooth transition for hover effect */
+  transition: background 0.5s;
 }
 
 body:hover {
