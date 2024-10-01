@@ -1,7 +1,7 @@
 html {
-  background: blue;
+  background: url("img/hack.jpg") no-repeat center fixed;
+  background-size: cover;
 }
-
 body {
   background: white;
   width: 600px;
@@ -9,19 +9,24 @@ body {
   padding: 20px 50px;
   border-radius: 15px;
   text-align: center;
+  transition: background 0.5s;
+}
+
+body:hover {
+  background: rgba(255, 255, 255, 0);
 }
 
 h1,
 h3,
 h4 {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-  transition: all 0.5s ease;
+  transition: all 0.5s;
 }
 
 h1:hover,
 h3:hover,
 h4:hover {
-  color: purple;
+  color: white;
   transform: translateY(-10px);
 }
 
